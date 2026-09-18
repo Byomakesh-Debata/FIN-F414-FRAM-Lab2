@@ -53,14 +53,14 @@ For each plot:
 1. State which parameter is varying, which are held constant, the range used, and whether it shows calls, puts, or both
 2. Include a clear title, labelled axes, and a legend where multiple lines appear. Avoid overcrowding a single plot. Split into separate plots if needed.
 
-Analyze (not an exhaustive list by any means) (whichever steps are appropriate):
+Analyze (not an exhaustive list by any means) (whichever parts are appropriate):
 1. Where the Greek reaches minimum/maximum
 2. Its sign and how that differs between calls and puts
 3. How it changes across ITM/OTM/ATM options
 4. How it changes with time, volatility, rates, dividend yields, etc
 5. Any sharp changes, turning points, or nonlinearities
 6. For higher order Greeks, you could also plot against the first order Greeks it connects to
-7. Whether the behaviour mathces what was discussed in class and why
+7. Whether the behaviour matches what was discussed in class and why
 
 ## Final Deliverable
 
