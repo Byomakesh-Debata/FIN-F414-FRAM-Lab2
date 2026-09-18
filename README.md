@@ -3,11 +3,11 @@
 ## Submission Deadline - EOD, 15 October, 2026
 ## Purpose
 
-Understand how Option Greeks behave under the BSM framework and how they respond to changes in the underlying option parameters (price, moneyness, volatility, time to maturity, rate, dividend yield). The goal is not just to produce plots, but to understand why each pattern occurs, connecting it to the Greek's formula and to concepts convered in class.
+Understand how Option Greeks behave under the BSM framework and how they respond to changes in the underlying option parameters (price, moneyness, volatility, time to maturity, rate, dividend yield). The goal is not just to produce plots, but to understand why each pattern occurs, connecting it to the Greek's formula and to concepts covered in class.
 
 A sample notebook demonstrating Delta is provided as a reference. You can (and should) organize your own notebooks differently.
 
-You submission is evaluated on: correct calculation of the selected Greeks, sensible choice of parameter variations for each, clean and reproducible code, properly labelled plots, and interpretations that are your own and grounded in the underlying formula.
+Your submission is evaluated on: correct calculation of the selected Greeks, sensible choice of parameter variations for each, clean and reproducible code, properly labelled plots, and interpretations that are your own and grounded in the underlying formula.
 
 ## Black-Scholes-Merton Framework
 
@@ -20,7 +20,7 @@ All calculations should be performed under the Black-Scholes-Merton framework, w
 - \(q\): Continuous dividend yield
 - \(sigma\): Volatility of the underlying asset
 
-You may start with K = 100, as in the Delta example and ajust ranges where it improves your analysis.
+You may start with K = 100, as in the Delta example and adjust ranges where it improves your analysis.
 
 ## Instructions
 
@@ -45,7 +45,7 @@ For each selected Greek:
 1. State its BSM formula and define all terms.
 2. Decide which parameters are relevant to vary for this Greek. Some Greeks may require a closer look at r or q than what the Delta example did.
 3. Calculate the Greeks across all relevant parameter combinations, separately for calls and puts wherever separate formulas apply.
-4. Sanity check that the values and reasonable and clearly state the scaling you are applying (Eg. Is theta being reported on a per-day basis?, etc.)
+4. Sanity check that the values are reasonable and clearly state the scaling you are applying (Eg. Is theta being reported on a per-day basis?, etc.)
 
 ### Step 4 - Plot and Analyze
 
@@ -72,7 +72,7 @@ Submit one ZIP folder containing:
 
 ## Report Requirements
 
-For each Greek, the report must present the formula, what is measures, the parameter ranges used, the plots from Step 4 and the analysis from step 4.
+For each Greek, the report must present the formula, what it measures, the parameter ranges used, the plots from Step 4 and the analysis from step 4.
 
 The report should read as your explanation of the results, not a restatement of the notebook. Your interpretations must be written in your own words and in clear, understandable language. Do not merely describe whether a line rises or falls. Explain what you understand from the result, why it happens, and, wherever possible, relate it to the mathematical formula of the Greek.
 
