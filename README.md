@@ -1,6 +1,6 @@
-# Lab 3 - Options Greeks Simulation Lab
+# Lab 2 - Options Greeks Simulation Lab
 
-## Submission Deadline - EOD, 27 September, 2026
+## Submission Deadline - EOD, 15 October, 2026
 ## Purpose of the Lab
 
 The objective of this lab is to understand how option Greeks behave under the Black-Scholes-Merton framework and how their values change when important option parameters are varied.
